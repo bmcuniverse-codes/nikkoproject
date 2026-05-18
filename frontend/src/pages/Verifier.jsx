@@ -87,7 +87,7 @@ export default function Verifier() {
 
       {result?.status === "valid" && (
         <div className="success-box">
-          <h3>✅ Valid Credential</h3>
+          <h3>Valid Credential</h3>
           <p><strong>Name:</strong> {result.student.name}</p>
           <p><strong>Matric:</strong> {result.student.matric}</p>
           <p><strong>Email:</strong> {result.student.email}</p>
@@ -105,7 +105,7 @@ export default function Verifier() {
 
       {result?.status === "invalid" && (
         <div className="error-box">
-          <h3>❌ Invalid Credential</h3>
+          <h3>Invalid Credential</h3>
           <p>{result.message}</p>
 
           <button className="btn" onClick={scanAgain}>
