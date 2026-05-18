@@ -1,0 +1,60 @@
+{
+  "students": [
+    {
+      "id": "1779070347405",
+      "name": "Benita",
+      "matric": "305814",
+      "email": "benita@gmail.com",
+      "phone": "01234",
+      "gender": "Female",
+      "department": "Computer Science",
+      "level": "200 Level",
+      "credentialType": "Transcript",
+      "session": "2024/2025",
+      "fileHash": "e22f9e1729479e2a45829d53011e56b1a3c3f953fdefccd135dfadd350dbc4e9",
+      "blockIndex": 1,
+      "createdAt": "2026-05-18T02:12:27.405Z"
+    },
+    {
+      "id": "1779070917041",
+      "name": "james",
+      "matric": "313633",
+      "email": "james@gmail.com",
+      "phone": "123465",
+      "gender": "Male",
+      "department": "Cyber Security",
+      "level": "200 Level",
+      "credentialType": "Result Statement",
+      "session": "2023/2026",
+      "fileHash": "e22f9e1729479e2a45829d53011e56b1a3c3f953fdefccd135dfadd350dbc4e9",
+      "blockIndex": 2,
+      "createdAt": "2026-05-18T02:21:57.041Z"
+    }
+  ],
+  "history": [
+    {
+      "id": "1779070347405",
+      "action": "Credential Uploaded",
+      "matric": "305814",
+      "studentName": "Benita",
+      "status": "success",
+      "timestamp": "2026-05-18T02:12:27.405Z"
+    },
+    {
+      "id": "1779070917041",
+      "action": "Credential Uploaded",
+      "matric": "313633",
+      "studentName": "james",
+      "status": "success",
+      "timestamp": "2026-05-18T02:21:57.041Z"
+    },
+    {
+      "id": "1779071216703",
+      "action": "Credential Verification",
+      "matric": "313633",
+      "studentName": "james",
+      "status": "valid",
+      "timestamp": "2026-05-18T02:26:56.703Z"
+    }
+  ]
+}

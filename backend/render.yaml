@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: eduverify-v2-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
